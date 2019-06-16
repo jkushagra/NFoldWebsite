@@ -17,15 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="~/css/site.css" rel="stylesheet" />
-    <style>
-        body {
-            font: 400 15px Lato, sans-serif;
-            line-height: 1.8;
-            color: #818181;
-        }
-
-    </style>
-</head>
+ </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -37,7 +29,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#myPage">
-                    <img src="../images/imageedit_3_5722492519.png" height="60" width="60" />
+
+                    <img src="~/images/logo_png_trans.png" height="60" width="60" />
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
@@ -52,17 +45,49 @@
         </div>
     </nav>
 
-    <div class="jumbotron text-center">
-        <h1>NFold Solutions</h1>>
-        <p>Excellence at every fold.</p>
-        <form>
-            <div class="input-group">
-                <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-                <div class="input-group-btn">
-                    <button type="button" class="btn btn-danger">Subscribe</button>
+    <h2>NFold Solutions</h2>
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="active item">
+
+
+                <img src="~/images/build-3965373.jpg" style="height:500px" width="1200"/>
+                <div class="carousel-content">
+                </div>
+                <div class="carousel-caption">
+                    <h3>What we do</h3>
                 </div>
             </div>
-        </form>
+            <div class="item">
+                <img src="http://placehold.it/1200x315" alt="...">
+                <div class="carousel-caption">
+                    <h3>What we Do</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="http://placehold.it/1200x315" alt="...">
+                <div class="carousel-caption">
+                    <h3>Who we Are</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
 
@@ -104,17 +129,17 @@
         <br>
         <div class="row slideanim">
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-off logo-small"></span>
+                <span class="glyphicon glyphicon-modal-window logo-small"></span>
                 <h4>WEB DEVELOPEMENT</h4>
                 <p>COMPANY TEXT REQUIRED .</p>
             </div>
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-heart logo-small"></span>
+                <span class="glyphicon glyphicon-indent-right logo-small"></span>
                 <h4>ANALYTIC SOLUTIONS</h4>
                 <p>COMPANY TEXT REQUIRED .</p>
             </div>
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-lock logo-small"></span>
+                <span class="glyphicon glyphicon-sound-stereo logo-small"></span>
                 <h4>ANDROID DEVELOPEMENT</h4>
                 <p>COMPANY TEXT REQUIRED .</p>
             </div>
@@ -123,18 +148,18 @@
         <div class="row slideanim">
             <div class="col-sm-4">
                 <span class="glyphicon glyphicon-leaf logo-small"></span>
-                <h4>GREEN</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
+                <h4>Business Solutions</h4>
+                <p>COMPANY TEXT REQUIRED .</p>
             </div>
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-certificate logo-small"></span>
-                <h4>CERTIFIED</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
+                <span class="glyphicon glyphicon-copyright-mark logo-small"></span>
+                <h4>Digital Signatures</h4>
+                <p>COMPANY TEXT REQUIRED .</p>
             </div>
             <div class="col-sm-4">
                 <span class="glyphicon glyphicon-wrench logo-small"></span>
-                <h4 style="color:#303030;">HARD WORK</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
+                <h4 style="color:#303030;">Trainings</h4>
+                <p>COMPANY TEXT REQUIRED .</p>
             </div>
         </div>
     </div>
@@ -146,23 +171,23 @@
         <div class="row text-center slideanim">
             <div class="col-sm-4">
                 <div class="thumbnail">
-                    <img src="paris.jpg" alt="Paris" width="400" height="300">
-                    <p><strong>Paris</strong></p>
-                    <p>Yes, we built Paris</p>
+                    <img src="~/images/Screenshot (1).png" alt="Wedas" style="height:400px" width="300">
+                    <p><strong>Wedas</strong></p>
+                    <p>Yes, we built Wedas</p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="thumbnail">
-                    <img src="newyork.jpg" alt="New York" width="400" height="300">
-                    <p><strong>New York</strong></p>
-                    <p>We built New York</p>
+                    <img src="~/images/Screenshot (2).png" alt="Digital Certificate Signer" style="height:400px" width="300">
+                    <p><strong>NFold Signer</strong></p>
+                    <p>We built IT!</p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="thumbnail">
-                    <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-                    <p><strong>San Francisco</strong></p>
-                    <p>Yes, San Fran is ours</p>
+                    <img src="~/images/statistic-1564428.png" alt="Statistics Dashboarding" style="height:400px" width="300">
+                    <p><strong>Statistics Dashboarding</strong></p>
+                    <p>Yes, This Dashboard is ours</p>
                 </div>
             </div>
         </div><br>
@@ -204,64 +229,50 @@
     <!-- Container (Pricing Section) -->
     <div id="pricing" class="container-fluid">
         <div class="text-center">
-            <h2>Pricing</h2>
-            <h4>Choose a payment plan that works for you</h4>
+            <h2>Technology</h2>
+            <h4>Some Technologies on which we work and many more.</h4>
         </div>
         <div class="row slideanim">
             <div class="col-sm-4 col-xs-12">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <h1>Basic</h1>
+                        <h1>MongoDb</h1>
                     </div>
                     <div class="panel-body">
-                        <p><strong>20</strong> Lorem</p>
-                        <p><strong>15</strong> Ipsum</p>
-                        <p><strong>5</strong> Dolor</p>
-                        <p><strong>2</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
+                        <img src="~/images/mongodb.jpg" height="400" width="300" />
                     </div>
                     <div class="panel-footer">
-                        <h3>$19</h3>
-                        <h4>per month</h4>
-                        <button class="btn btn-lg">Sign Up</button>
+                              <button class="btn btn-lg">Check Out!</button>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4 col-xs-12">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <h1>Pro</h1>
+                        <h1>SAS</h1>
                     </div>
                     <div class="panel-body">
-                        <p><strong>50</strong> Lorem</p>
-                        <p><strong>25</strong> Ipsum</p>
-                        <p><strong>10</strong> Dolor</p>
-                        <p><strong>5</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
+
+                        <img src="~/images/sas-15.png"  height="400" width="300"/>
                     </div>
                     <div class="panel-footer">
-                        <h3>$29</h3>
-                        <h4>per month</h4>
-                        <button class="btn btn-lg">Sign Up</button>
+                        
+                        <button class="btn btn-lg">Check Out!</button>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4 col-xs-12">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <h1>Premium</h1>
+                        <h1>Node.js</h1>
                     </div>
                     <div class="panel-body">
-                        <p><strong>100</strong> Lorem</p>
-                        <p><strong>50</strong> Ipsum</p>
-                        <p><strong>25</strong> Dolor</p>
-                        <p><strong>10</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
+
+                        <img src="~/images/node.png" style="height:400px" width="300"/>
                     </div>
                     <div class="panel-footer">
-                        <h3>$49</h3>
-                        <h4>per month</h4>
-                        <button class="btn btn-lg">Sign Up</button>
+                        
+                        <button class="btn btn-lg">Check Out!</button>
                     </div>
                 </div>
             </div>
@@ -274,8 +285,8 @@
         <div class="row">
             <div class="col-sm-5">
                 <p>Contact us and we'll get back to you within 24 hours.</p>
-                <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-                <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Bangalore,IND</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +91-9971382503</p>
                 <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
             </div>
             <div class="col-sm-7 slideanim">
@@ -297,8 +308,7 @@
         </div>
     </div>
 
-    <!-- Image of location/map -->
-    <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+ 
 
     <footer class="container-fluid text-center">
         <a href="#myPage" title="To Top">

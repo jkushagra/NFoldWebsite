@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NFold\\WebsiteNFold\\WebsiteNFold\\WebsiteNFold.csproj": {}
+    "D:\\NFold\\NFoldWebsite\\WebsiteNFold\\WebsiteNFold\\WebsiteNFold.csproj": {}
   },
   "projects": {
-    "D:\\NFold\\WebsiteNFold\\WebsiteNFold\\WebsiteNFold.csproj": {
+    "D:\\NFold\\NFoldWebsite\\WebsiteNFold\\WebsiteNFold\\WebsiteNFold.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NFold\\WebsiteNFold\\WebsiteNFold\\WebsiteNFold.csproj",
+        "projectUniqueName": "D:\\NFold\\NFoldWebsite\\WebsiteNFold\\WebsiteNFold\\WebsiteNFold.csproj",
         "projectName": "WebsiteNFold",
-        "projectPath": "D:\\NFold\\WebsiteNFold\\WebsiteNFold\\WebsiteNFold.csproj",
+        "projectPath": "D:\\NFold\\NFoldWebsite\\WebsiteNFold\\WebsiteNFold\\WebsiteNFold.csproj",
         "packagesPath": "C:\\Users\\Kushagra\\.nuget\\packages\\",
-        "outputPath": "D:\\NFold\\WebsiteNFold\\WebsiteNFold\\obj\\",
+        "outputPath": "D:\\NFold\\NFoldWebsite\\WebsiteNFold\\WebsiteNFold\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
