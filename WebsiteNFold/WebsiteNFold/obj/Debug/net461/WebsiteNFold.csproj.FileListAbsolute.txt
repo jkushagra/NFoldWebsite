@@ -649,8 +649,6 @@ D:\NFold\NFoldWebsite\WebsiteNFold\WebsiteNFold\obj\Debug\net461\WebsiteNFold.As
 D:\NFold\NFoldWebsite\WebsiteNFold\WebsiteNFold\obj\Debug\net461\WebsiteNFold.TagHelpers.input.cache
 D:\NFold\NFoldWebsite\WebsiteNFold\WebsiteNFold\obj\Debug\net461\WebsiteNFold.TagHelpers.output.cache
 D:\NFold\NFoldWebsite\WebsiteNFold\WebsiteNFold\obj\Debug\net461\WebsiteNFold.RazorCoreGenerate.cache
-D:\NFold\NFoldWebsite\WebsiteNFold\WebsiteNFold\obj\Debug\net461\Razor\Pages\About.g.cshtml.cs
-D:\NFold\NFoldWebsite\WebsiteNFold\WebsiteNFold\obj\Debug\net461\Razor\Pages\Contact.g.cshtml.cs
 D:\NFold\NFoldWebsite\WebsiteNFold\WebsiteNFold\obj\Debug\net461\Razor\Pages\Error.g.cshtml.cs
 D:\NFold\NFoldWebsite\WebsiteNFold\WebsiteNFold\obj\Debug\net461\Razor\Pages\Index.g.cshtml.cs
 D:\NFold\NFoldWebsite\WebsiteNFold\WebsiteNFold\obj\Debug\net461\Razor\Pages\Privacy.g.cshtml.cs
