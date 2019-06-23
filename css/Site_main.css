@@ -2,13 +2,21 @@ body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
-    background: url(../wwwroot/images/paper-1990111.jpg);
 }
 
 .container-fluid.main {
     position: relative;
     /* To make the navbar positions relative to this container */
     padding: 0;
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
 
 .navbar-default {
@@ -78,18 +86,6 @@ body {
         background-size: cover;
         /* To make the background image looks good */
     }
-}
-
-.carousel .background.a {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/92090/pexels-photo-92090-large.jpeg");
-}
-
-.carousel .background.b {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/93750/pexels-photo-93750-large.jpeg");
-}
-
-.carousel .background.c {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/76827/bahia-ocean-bay-boat-76827-large.jpeg");
 }
 
 .carousel-fade .carousel-inner .item {
@@ -293,11 +289,27 @@ footer .glyphicon {
 }
 
 .item h4 {
+    color: #f6f6f6;
     font-size: 19px;
     line-height: 1.375em;
     font-weight: 400;
     font-style: italic;
     margin: 70px 0;
+}
+
+.item h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.item h2 {
+    color: #f6f6f6;
+}
+
+.item h3 {
+    color: white;
+    font-weight: 400;
 }
 
 .item span {
