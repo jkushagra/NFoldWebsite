@@ -472,3 +472,10 @@ h4 {
         right: 35px;
     }
 }
+
+.myAlert-top {
+    position: fixed;
+    top: 5px;
+    left: 2%;
+    width: 96%;
+}

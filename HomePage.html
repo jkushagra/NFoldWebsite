@@ -216,9 +216,9 @@
                     <!-- Overlay content -->
                     <div class="overlay-content">
                         <a href="#">About</a>
-                        <a href="#">Services</a>
-                        <a href="#">Clients</a>
-                        <a href="#">Contact</a>
+                        <a href="#">Manual</a>
+                        <a href="#">Videos</a>
+                        <a href="#contact">Contact</a>
                     </div>
                 </div>
                 <span onclick="openNav()" data-toggle="tooltip" title="Wedas"><img src="images\ir.jpg" height="100" width="100" /></span>
@@ -233,18 +233,13 @@
                         <a href="#">About</a>
                         <a href="#">Manual</a>
                         <a href="#">Trial</a>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </div>
                 </div>
                 <span onclick="openNav1()" data-toggle="tooltip" title="NFold Signer"><img src="images\nfold_500x500.png" height="100" width="100" /></span>
                 <h4 style="color: black"><strong>NFold Signer</strong></h4>
             </div>
-
-
-
         </div>
-
-
     </div><br>
 
     <!-- Container (Contact Section) -->
@@ -270,6 +265,7 @@
                 <div class="row ">
                     <div class="col-sm-12 form-group ">
                         <button class="btn btn-default pull-right " type="submit ">Send</button>
+                        <div class="parent"></div>
                     </div>
                 </div>
             </div>
@@ -285,6 +281,14 @@
     </footer>
 
     <script>
+        $(document).ready(function() {
+
+            $('button').click(function() {
+
+                $('.parent').append("<div class='myAlert-top alert alert-info alert-dismissable'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>Success! E-mail sent successfully.</div>")
+            })
+        });
+
         function openNav() {
             document.getElementById("myNav").style.width = "100%";
         }
