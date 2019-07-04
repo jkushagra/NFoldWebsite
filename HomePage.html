@@ -151,8 +151,7 @@
                 <h1 style="color: black">Our Vision</h1>
                 <h3 style="color:black">
                     To be differenciated with our innovative solution in the field of Artificial intelligence for automotive, medical, imaging and multimedia products. Our Mission is : <br>- To be a chmapion in machine learning and deep learning alogorithm
-                    &
-                    <&nbsp> libraries <br>- Biometric & security solutions<br> - An intelligent Software Development Life Cycle model <br>- State-of-the-art tools & infrastructure to enabled high level automation
+                    & libraries <br>- Biometric & security solutions<br> - An intelligent Software Development Life Cycle model <br>- State-of-the-art tools & infrastructure to enabled high level automation
                 </h3>
             </div>
         </div>
@@ -210,74 +209,43 @@
             <div class="col-sm-8">
                 <h1 style="color: black">Product Portfolio</h1><br>
             </div>
-            <div class="col-sm-8">
-                <a href="#about" data-toggle="tooltip" title="Wedas"><img src="images\ir.jpg" height="100" width="100" />
-                </a>
+            <div class="col-sm-4">
+
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <!-- Overlay content -->
+                    <div class="overlay-content">
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <span onclick="openNav()" data-toggle="tooltip" title="Wedas"><img src="images\ir.jpg" height="100" width="100" /></span>
+                <h4 style="color: black"><strong>Web Enabled Design Approval System</strong></h4>
             </div>
-            <div class="caption">
-                <p style="color: black"> <strong>Web Enabled Design Approval System</strong></p>
+            <div class="col-sm-4">
+
+                <div id="myNav1" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+                    <!-- Overlay content -->
+                    <div class="overlay-content">
+                        <a href="#">About</a>
+                        <a href="#">Manual</a>
+                        <a href="#">Trial</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <span onclick="openNav1()" data-toggle="tooltip" title="NFold Signer"><img src="images\nfold_500x500.png" height="100" width="100" /></span>
+                <h4 style="color: black"><strong>NFold Signer</strong></h4>
             </div>
+
 
 
         </div>
 
 
     </div><br>
-
-
-    <!-- Container (Technology Section) 
-    <div id="pricing " class="container-fluid ">
-        <div class="text-center ">
-            <h2>Technology</h2>
-            <h4>Some Technologies on which we work and many more.</h4>
-        </div>
-        <div class="row slideanim ">
-            <div class="col-sm-4 col-xs-12 ">
-                <div class="panel panel-default text-center ">
-                    <div class="panel-heading ">
-                        <h1>MongoDb</h1>
-                    </div>
-                    <div class="panel-body ">
-                        <img src="images\mongodb.jpg " style="height:400px " width="300 " />
-                    </div>
-                    <div class="panel-footer ">
-                        <button class="btn btn-lg ">Check Out!</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-xs-12 ">
-                <div class="panel panel-default text-center ">
-                    <div class="panel-heading ">
-                        <h1>SAS</h1>
-                    </div>
-                    <div class="panel-body ">
-
-                        <img src="images\sas-15.png " style="height:400px " width="300 " />
-                    </div>
-                    <div class="panel-footer ">
-
-                        <button class="btn btn-lg ">Check Out!</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-xs-12 ">
-                <div class="panel panel-default text-center ">
-                    <div class="panel-heading ">
-                        <h1>Node.js</h1>
-                    </div>
-                    <div class="panel-body ">
-
-                        <img src="images\node.png " style="height:400px " width="300 " />
-                    </div>
-                    <div class="panel-footer ">
-
-                        <button class="btn btn-lg ">Check Out!</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-
 
     <!-- Container (Contact Section) -->
     <div id="contact " class="container-fluid bg-grey ">
@@ -315,6 +283,24 @@
         </a>
 
     </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function openNav1() {
+            document.getElementById("myNav1").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+        function closeNav1() {
+            document.getElementById("myNav1").style.width = "0%";
+        }
+    </script>
 
 </body>
 
